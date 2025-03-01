@@ -1,0 +1,805 @@
+@font-face {
+    font-family: Jollibee;
+    src: url(Fonts/jellee/Jellee-Roman.ttf);
+}
+@font-face {
+    font-family: Nunito;
+    src: url(Fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav {
+    font-family: Nunito;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    border-bottom: 20px solid rgb(255, 0, 0);
+}
+
+.navright .active{
+    color:red;
+}
+.nav a{
+    transition: color 0.2s ease;
+}
+.nav a:hover {
+    color: red;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+}
+.imgcontainer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcontainer img {
+    flex-basis: 40%;
+    width: 4.8vw;
+    height: 11vh;
+    margin-right: 0vw;
+}
+.textlogo{
+    letter-spacing: 2px;
+    font-family: Jollibee;
+    color: rgb(206, 0, 0);
+    padding-right: 5vw;
+}
+
+
+.navright {
+    display: flex;
+}
+
+.navright a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1.5vh 5vh;
+    font-size: 26px;
+}
+.gigachad{
+    margin-top: 2.7vh;
+    position: absolute;
+    left: 67vw;
+    transition: scale 0.3s ease;
+}
+.gigachad img{
+    border-radius: 30px;
+}
+.gigachad2{
+    margin-top: 2.7vh;
+    position: absolute;
+    left: 37vw;
+    transition: scale 0.3s ease;
+}
+.gigachad2 img{
+    border-radius: 30px;
+}
+
+.gigachad:hover{
+    scale: 103%;
+}
+.gigachad2:hover{
+    scale: 103%;
+}
+.gigachad3{
+    margin-top: 1.3vh;
+    position: absolute;
+    left: 7vw;
+    top: 14.7vh;
+}
+.gigachad3 img{
+    width: 20vw;
+    height: 50vh;
+    z-index: -1;
+}
+.chad{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 15vh;
+    right: 66.8vw;
+    font-size: 20px;
+    font-family: Nunito;
+    width: 30vw;
+    text-align: center;
+    
+}
+.button{
+    scale: 250%;
+    position: absolute;
+    bottom: 9vh;
+    left: 16.2vw;
+    border: 1.8px solid red;
+    border-radius: 20px;
+    transition: scale 0.15s ease;
+}
+.button button{
+    font-weight: bold;
+    font-family: Nunito;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    color: rgb(255, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+.button button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    }
+.button:active{
+    scale: 235%;
+}
+.blackbg{
+    background-color:black ;
+}
+.skibidi{
+    opacity: 0.7;
+    z-index: -1;
+}
+.skibidi img{
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.forms {
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 26vw;
+    text-align: center;
+    height:60vh ;
+    box-shadow: 5px 5px 20px black;
+}
+
+.forms h2 {
+    font-family: Nunito;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.forms h1 {
+    font-family: Nunito;
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.forms input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forms button {
+    font-family: Nunito;
+    margin-top: 5vh;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    border: 3px solid red;
+    transition: color 0.23s ease, background-color 0.23s ease;
+}
+
+.forms button:hover {
+    color: white;
+    background-color: #ff0000;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: wheat;
+    border-right: 3.5px solid rgb(190, 173, 141);
+    width: 18vw;
+    height: 85vh;
+    z-index: -1;
+}
+.imgcontainerr{
+    position: relative;
+    width: 18vw;
+    height: 15vh;
+}
+
+.idkk{
+    width: 17.7vw;
+    height: 15vh;
+    background-color: white;
+    border-left: 5px solid orange;
+    border-right: 3.5px solid rgb(190, 173, 141);
+}
+.skibidii{
+    position: absolute;
+    width: 18vw;
+    height: 15vh;
+    transition: 0.15s ease;
+}
+.skibidii:hover{
+    scale:102%;
+}
+.skibidii img{
+    position: relative;
+    width: 7vw;
+    height: auto;
+}
+.skibidii h1{
+    position: inherit;
+    font-family: Nunito;
+    font-size: 25px;
+    left: 6.8vw;
+    top: 6vh;
+    color: black;
+}
+.imgcontainerr1{
+    position: absolute;
+    top: 20vh;
+    width: 18vw;
+    height: 15vh;
+}
+.skibidii1{
+    position: absolute;
+    top: 1vh;
+    width: 18vw;
+    height: 15vh;
+    transition: 0.15s ease;
+}
+.skibidii1:hover{
+    scale:102%;
+}
+.skibidii1 img{
+    position: relative;
+    left: 0.11vw;
+    width: 7vw;
+    height: auto;
+}
+.skibidii1 h1{
+    position: absolute;
+    font-family: Nunito;
+    font-size: 24px;
+    left: 8vw;
+    top: 1vh;
+    color: black;
+}
+.imgcontainerr2{
+    position: absolute;
+    top: 40vh;
+    width: 18vw;
+    height: 15vh;
+}
+.skibidii2{
+    position: absolute;
+    top: 1vh;
+    width: 18vw;
+    height: 15vh;
+    transition: 0.15s ease;
+}
+.skibidii2:hover{
+    scale:102%;
+}
+.skibidii2 img{
+    position: relative;
+    left: 0vw;
+    width: 7vw;
+    height: auto;
+}
+.skibidii2 h1{
+    position: absolute;
+    font-family: Nunito;
+    font-size: 25px;
+    left: 7.4vw;
+    top: 4vh;
+    color: black;
+}
+.imgcontainerr3{
+    position: absolute;
+    top: 60vh;
+    width: 18vw;
+    height: 15vh;
+}
+.skibidii3{
+    position: absolute;
+    top: 1vh;
+    width: 18vw;
+    height: 15vh;
+    transition: 0.15s ease;
+}
+.skibidii3:hover{
+    scale:102%;
+}
+.skibidii3 img{
+    position: relative;
+    left: 0.19vw;
+    width: 7vw;
+    height: auto;
+}
+.skibidii3 h1{
+    position: absolute;
+    font-family: Nunito;
+    font-size: 25px;
+    left: 7.5vw;
+    top: 4vh;
+    color: black;
+}
+.mainmenu{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    bottom: 2vh;
+    left: 19.55vw;
+    width: 78vw;
+    height: 80vh;
+    border-radius: 10px;
+    background-image: url(menubg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.menuimg{
+    top:10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+}
+
+.bestseller1{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.bestseller1 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.bestseller1 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:8vh;
+    scale: 60%;
+    height: 19.5vh;
+}
+
+.bestseller2{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.bestseller2 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.bestseller2 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:4vh;
+    scale: 75%;
+    height: 19.5vh;
+}
+.bestseller3{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.bestseller3 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.bestseller3 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:5.5vh;
+    scale: 60%;
+    height: 19.5vh;
+}
+.bestseller4{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.bestseller4 img{
+    position: relative;
+    align-items: center;
+    left: 2vw;
+    top: 4vh;
+    width: 10.5vw;
+    height: auto;
+    margin-bottom: 7vh;
+}
+.bestseller4 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:2vh;
+    scale: 90%;
+    height: 19.5vh;
+}
+.buttonmain{
+    position: relative;
+    background-color: #ff7b00;
+    font-family: Nunito;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 20px;
+    width: 7.5vw;
+    height: 5.5vh;
+    left: 3.7vw;
+    bottom: 1vh;
+    cursor: pointer;
+    transition: background-color 0.16s ease, scale 0.1s ease;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+.buttonmain:hover{
+    background-color: #d86800;
+}
+.buttonmain:active{
+    scale: 90%;
+}
+
+.Jollyspag1{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.Jollyspag1 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.Jollyspag1 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:5vh;
+    scale: 70%;
+    height: 19.5vh;
+}
+
+.Jollyspag2{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.Jollyspag2 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.Jollyspag2 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:2vh;
+    scale: 80%;
+    height: 19.5vh;
+}
+
+.Jollyspag3{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.Jollyspag3 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.Jollyspag3 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:0.2vh;
+    scale: 80%;
+    height: 19.5vh;
+}
+
+.Jollyspag4{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.Jollyspag4 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.Jollyspag4 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:0.2vh;
+    scale: 80%;
+    height: 19.5vh;
+}
+
+.burgersteak1{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.burgersteak1 img{
+    position: relative;
+    width: 15vw;
+    height: auto;
+}
+.burgersteak1 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:2.5vh;
+    scale: 80%;
+    height: 19.5vh;
+}
+.burgersteak2{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.burgersteak2 img{
+    position: relative;
+    top: 1vh;
+    width: 15vw;
+    height: auto;
+}
+.burgersteak2 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-9vh;
+    scale: 100%;
+    height: 29.35vh;
+}
+.burgersteak3{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.burgersteak3 img{
+    position: relative;
+    top: 4vh;
+    width: 15vw;
+    height: auto;
+}
+.burgersteak3 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-3vh;
+    scale: 80%;
+    height: 29.35vh;
+}
+.burgersteak4{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.burgersteak4 img{
+    position: relative;
+    top:3vh;
+    width: 15vw;
+    height: auto;
+}
+.burgersteak4 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-7vh;
+    scale: 90%;
+    height: 29.35vh;
+}
+
+.familymeals1{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.familymeals1 img{
+    position: relative;
+    top: 5vh;
+    width: 15vw;
+    height: auto;
+}
+.familymeals1 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-12vh;
+    scale: 90%;
+    height: 29.35vh;
+}
+.familymeals2{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.familymeals2 img{
+    position: relative;
+    top: 3vh;
+    width: 15vw;
+    height: auto;
+}
+.familymeals2 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-6vh;
+    scale: 80%;
+    height: 29.35vh
+}
+.familymeals3{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.familymeals3 img{
+    position: relative;
+    top: 3vh;
+    width: 15vw;
+    height: auto;
+}
+.familymeals3 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-5vh;
+    scale: 80%;
+    height: 29.35vh
+}
+.familymeals4{
+    position: relative;
+    background-color: #ffffff;
+    width: 15vw;
+    height: 59vh;
+    border: 3px solid darkred;
+    border-radius: 10px;
+}
+.familymeals4 img{
+    position: relative;
+    top: 6vh;
+    width: 15vw;
+    height: auto;
+}
+.familymeals4 h1{
+    position: relative;
+    font-family: Nunito;
+    text-align: center;
+    bottom:-3vh;
+    scale: 70%;
+    height: 29.35vh
+}
+.imageabout{
+    position: absolute;
+    top: 20vh;
+    width:20vw;
+    height:50vh ;
+    right: 10vw;
+    z-index: -1;
+}
+.imageabout img{
+    position: relative;
+    width: 20vw;
+    height: auto;
+}
+.textabout{
+    position: absolute;
+    top: 20vh;
+    width:60vw;
+    height:70vh ;
+    right: 33vw;
+    z-index: -1;
+}
+.textabout p{
+    font-family: Nunito;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.aboutus{
+    position: absolute;
+    bottom: 3vw;
+    width:20vw;
+    height: 20vh ;
+    right: 10vw;
+    z-index: -1;
+}
+.aboutus h1{
+    font-family: Jollibee;
+    font-weight: lighter;
+    position: relative;
+    text-align: center;
+    top: 0vh;
+    font-size: 50px;
+    color: white;
+    right: -1vw;
+}
+.aboutimg{
+    position: relative;
+    top: 0vh;
+    width: 100vw;
+    height: 84vh;
+    z-index: -1;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(aboutimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
